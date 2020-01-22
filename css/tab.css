@@ -1,0 +1,50 @@
+@charset "UTF-8";
+@import url("https://use.typekit.net/oob6zpx.css");
+
+/* 初期状態の時のタブ2を薄くする */
+.tab-buttons li.content2 {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+/* 初期状態の時のタブ3を薄くする */
+.tab-buttons li.content3 {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+/* タブ内の文字のスタイル定義 */
+.tab-content {
+  padding: 55px;
+  display: inline-block;
+  color: #111;
+}
+
+/* 下線のスタイル */
+#lamp {
+  width: 43px;
+  height: 2px;
+  background: #000;
+  display: block;
+  position: absolute;
+  top: 56px;
+  transition: all .3s ease-in;
+}
+
+/* 下線がタブ1の下にある時のスタイル定義 */
+#lamp.content1 {
+  left: 855px;
+  transition: all .3s ease-in;
+}
+
+/* 下線がタブ2の下にある時のスタイル定義 */
+#lamp.content2 {
+  left: 1005px;
+  transition: all .3s ease-in;
+}
+
+/* 下線がタブ3の下にある時のスタイル定義 */
+#lamp.content3 {
+  left: 1157px;
+  transition: all .3s ease-in;
+}

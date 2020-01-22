@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="ja">
-
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css/tab.css">
     <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript" src="js/move.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>HTML CSS</title>
   </head>
-
   <body>
     <header>
       <p>
         <a href="index.html" id="title">HTML CSS</a>
       </p>
       <nav>
-        <ul>
-          <li><a href="index.html" class="btn1">About</a></li>
-          <li><a href="news.html" class="btn2">News</a></li>
-          <li><a href="qanda.html" class="btn2">Q&A</a></li>
+        <ul class="tab-buttons">
+          <li class="content1">About</li>
+          <li class="content2">News</li>
+          <li class="content3">Q&A</li>
         </ul>
+        <div id='lamp' class='content1'></div>
       </nav>
     </header>
-
-      <div id="bg-001">
-        <div id="bg-we-propose-a-life">
-          <p id="we-propose-a-life">We propose a life.</p>
+    <div class="tab-contents">
+      <div class="content1">
+        <div id="bg-001">
+          <div id="bg-we-propose-a-life">
+            <p id="we-propose-a-life">We propose a life.</p>
+          </div>
         </div>
       </div>
+    </div>
+    <script type="text/javascript" src="js/tab.js"></script>
   </body>
 </html>
