@@ -95,3 +95,22 @@ nav ul li {
   border: 0px;
   pading: 0px;
 }
+
+#bg-002 {
+  top: 142px;
+  left: 88px;
+  width: 544px;
+  height: 500px;
+  margin: 0 left;
+  background: transparent url('../img/002.png') 0% 0% no-repeat padding-box;
+  position: relative;
+  opacity: 1;
+}
+
+#bg-002 p {
+  display: inline-block;
+}
+
+#bg-002 div {
+  display: inline-block;
+}
